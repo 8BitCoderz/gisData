@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "GOVT LAND (#13)",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "SCHOOL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 74.837585939230095, 35.292344745196402, 0.0 ], [ 74.8373586773737, 35.292551452580099, 0.0 ], [ 74.837136055629301, 35.292309602639101, 0.0 ], [ 74.837297148242001, 35.292159741907803, 0.0 ], [ 74.837585939230095, 35.292344745196402, 0.0 ] ] ] } }
+]
+}
