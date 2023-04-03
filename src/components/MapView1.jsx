@@ -6,6 +6,8 @@ import gilgitData from '../constants/json files/gilgit.json';
 import nagarData from '../constants/json files/nagar.json'
 
 const MapView = () => {
+
+  const  center = [36.2512138451938, 74.32314289404567]
   const [geoJSONData, setGeoJSONData] = useState(null);
 
   // Convert the Esri JSON data to GeoJSON
@@ -44,7 +46,7 @@ const MapView = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {geoJSONData && <GeoJSON key='geojson-layer' data={geoJSONData}  />}
+        {/* {geoJSONData && <GeoJSON key='geojson-layer' data={geoJSONData}  />} */}
       </MapContainer>
     </div>
   );

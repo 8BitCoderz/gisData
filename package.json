@@ -11,8 +11,10 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.15",
     "@react-leaflet/core": "^2.1.0",
+    "@turf/turf": "^6.5.0",
     "arcgis-to-geojson-utils": "^1.0.3",
     "geoblaze": "^1.2.0",
     "georaster-layer-for-leaflet": "^3.10.0",
